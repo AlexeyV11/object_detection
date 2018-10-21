@@ -1,3 +1,5 @@
+import sys
+
 # add pathes from TF repository
 sys.path.append("../models/research")
 sys.path.append("../models/research/cognitive_planning")
@@ -5,7 +7,6 @@ sys.path.append("../models/research/cognitive_planning")
 import numpy as np
 import os
 import six.moves.urllib as urllib
-import sys
 import tarfile
 import tensorflow as tf
 import zipfile
